@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+  <!--css baner-->
+  <style>
+    .navbar {
+      color: #fff;
+    }
+    .navbar ul li:hover {
+      background-color: rgb(58, 59, 143);
+      border-radius: 20px;
+    }
+    .banner {
+      height: 90vh;
+      background: url("dak.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .banner-content {
+      height: 100%;
+      color: rgb(228, 235, 231);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand">>>OUTFIT STORE88<<</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="view.php"
+                >DATA BARANG</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="view.pelanggan.php"
+                >DATA PELANGGAN</a
+              >
+            <!-- </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                MENU
+              </a> -->
+                <li class="nav-item">
+                <a class="nav-link active" href="view.penjualan.php">DATA PENJUALAN</a></li>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li> -->
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" color="black" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Banner-->
+    <div class="cintainer-fluid banner">
+      <div class="container banner-content col-lg-6">
+        <div class="text-center">
+          <p class="fs-1">>>PENJUALAN BARANG<<</p>
+          <p class="d-none d-sm-block"></p>
+          <h5>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+            libero aut voluptatibus eaque nihil ex, repellat magnam
+            exercitationem in perspiciatis, tempore ab aspernatur
+            necessitatibus, itaque accusantium veritatis odio debitis? Minima?
+          </h5>
+          <center>
+            <a class="btn btn-danger" href="login.php" style="margin-top: 15px"
+              >Keluar</a
+          </center>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
